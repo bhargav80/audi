@@ -1,0 +1,147 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Baloo Bhai 2', cursive;
+  color: white;
+}
+body {
+  background-color: rgb(242, 241, 239);
+  
+}
+#first img {
+  width: 120px;
+}
+#first {
+  margin-top: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+#first div {
+  margin-left: 10px;
+  padding: 20px;
+}
+#fdiv2 {
+  margin-top: 7%;
+}
+
+#fdiv2 h3 {
+  margin-bottom: 20px;
+}
+
+#first::before {
+  content: " ";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: url(3849608.jpg) no-repeat center center/cover;
+
+  z-index: -1;
+  height: 438px;
+  width: 100%;
+}
+#second {
+  margin-top: 78px;
+  
+}
+#second::before {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  height: 400px;
+  width: 100%;
+  background: url(https://images01.nicepage.com/9e/bb/9ebb440ab8c5fba21a44c5597539d30d.png) no-repeat center
+    center/cover;
+}
+
+#second div {
+  color: white;
+
+  position: relative;
+
+  padding-top: 50px;
+  left: 60%;
+  width: 36%;
+
+  height: 100%;
+}
+
+#third{
+    color: white;
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    
+}
+#box1{
+  display: flex;
+  justify-content: center;
+  
+}
+#bxd1{
+    padding-left: 4%;
+    width: 40%;
+}
+#bxd1 button{
+  color: black;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 1.1rem;
+  border-style: 2px solid black;
+  border-radius: 8px;
+}
+
+
+
+#bxd2{
+  width: 40%;
+  margin-left: 5%;
+}  
+
+#bxd2 img{
+  width: 100%;
+}
+
+#box2
+{
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+#box2 img
+{
+  width: 70%;
+}
+
+#box2 h3{
+  margin-top: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* UTILITY CLASSES*/
+.hsec {
+  font-size: 1.2rem;
+}
+.hprimary {
+  font-size: 2.3rem;
+}
+
+.h2{
+    font-size: 2rem;
+}
+
+.para{
+  font-size: 1.1rem;
+}
